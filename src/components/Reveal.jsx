@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const Reveal = ({ children, delay = 0 }) => (
+const Reveal = ({ children, delay = 0.2 }) => (
   <motion.div
     initial={{ opacity: 0, y: 70 }}
     whileInView={{ opacity: 1, y: 0 }}
